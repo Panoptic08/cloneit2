@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(250, 246, 246);
+}
+
+
+.navbar {
+    height: 56px;
+    background-color: white;
+    color: black; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 2%;
+}
+
+.logo {
+    background-image: url('https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg');
+    background-size: cover;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search-bar {
+    height: 40px;
+    border: none;
+    width: 600px;
+}
+
+#searchbu {
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+
+.profile:hover{
+    border: 2px solid black;    
+}
+
+
+.cart
+{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+#cartnumber{
+    position: absolute;
+    top: 2%;
+    margin-left: 1%;
+    font-size: small;
+    height: 2%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+a{
+    text-decoration: none;
+}
+.cart:hover{
+    border: 2px solid black;    
+}
+
+
+
+
+.sell{
+    display: flex;
+}
+
+#sellimg{
+    margin-left: 50px;
+}
+
+#text{
+    position: absolute;
+    margin-top: 7px;
+}
+
+#flip{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.menu{
+    /* position: absolute; */
+    display: flex;
+    margin-left: 150px;
+}
+.menu:hover{
+    border: 2px solid black;
+}
+
+.box{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+#imagess{
+    border: 2px solid black;
+    height: 30%;
+    width: 98%;
+    margin-left: 1%;
+}
+
+
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    height: 226px;
+    background-color: white;
+    align-items: center;
+    font-size: small;
+    text-align: center;
+}
+
+
+
+.info{
+    color:rgb(174, 170, 170) ;
+    font-size: smaller;
+    height: auto;
+    background-color: white;
+}
+
+.containsfooter{
+    height: 245px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: small;
+    align-items: center;
+    background-color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#list{
+    /* list-style-type: none; */
+    list-style: none;
+}
+p{
+   color: grey; 
+   font-size: medium;
+}
+a{
+    color: white;
+}
+
+hr{
+    color: grey;
+}
+
+.space{
+    height: 120px;
+    width: 100%;
+    border-top: 1px solid grey;
+    background-color: black;
+}
